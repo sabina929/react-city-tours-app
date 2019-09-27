@@ -1,0 +1,36 @@
+@import "../../index.scss";
+
+.navbar {
+  background: $primary-black;
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+  & img {
+    filter: hue-rotate(0deg) brightness(0.88) saturate(0.8) contrast(1.2)
+      invert(2);
+  }
+}
+
+.nav-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-self: center;
+  list-style: none;
+  text-align: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: $primary-white;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $primary-yellow;
+  }
+}
+
+.active {
+  color: $primary-yellow;
+}

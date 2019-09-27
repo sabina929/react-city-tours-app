@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$primary-black: #333333;
+$primary-white: #ffffff;
+$primary-grey: #f7f7ee;
+$primary-pink: #f375b5;
+$primary-yellow: #fcd783;
+$primary-violet: #816ad6;
+
+body {
+  background: $primary-white;
+  color: $primary-black;
+  font-family: "Open Sans", sans-serif;
+}
